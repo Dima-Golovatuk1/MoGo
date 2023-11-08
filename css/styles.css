@@ -4,6 +4,39 @@
     --title-color--: #333;
 }
 
-.logo, nav {
-    color: var(--logo-color);
+body{
+    font-family: "Montserrat", sans-serif;
 }
+
+                                /* header */
+.header {
+}
+
+
+.header__logo {
+color: var(--logo-color);
+font-size: 30px;
+font-weight: 700;
+}
+
+
+.header__nav-list {
+}
+
+
+.nav__list {
+}
+
+
+.header__nav-item {
+color: var(--logo-color);
+font-size: 14px;
+font-weight: 400;
+}
+
+
+.header__nav-link:hover {
+color: #F38181;
+}
+                                /* main */
+                                /* footer */
