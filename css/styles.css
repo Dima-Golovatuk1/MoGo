@@ -8,23 +8,22 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
-                                /* header */
-.header {
+
+.container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid;
+    color: red;
 }
+
+                                /* header */
 
 
 .header__logo {
 color: var(--logo-color);
 font-size: 30px;
 font-weight: 700;
-}
-
-
-.header__nav-list {
-}
-
-
-.nav__list {
 }
 
 
