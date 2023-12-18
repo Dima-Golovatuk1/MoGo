@@ -10,7 +10,7 @@ body{
 
 
 .container{
-    width: 1230px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     outline: 1px solid;
@@ -18,7 +18,22 @@ body{
 }
 
                                 /* header */
+.header{
+    padding-top: 32px;
+}
 
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav__list{
+    display: flex;
+    gap: 55px;
+}
 
 .header__logo {
 color: var(--logo-color);
