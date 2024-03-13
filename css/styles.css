@@ -105,6 +105,13 @@ margin-bottom: 20px;
 }
 
 
+.works__icons{
+    width: 37px;
+    height: 37px;
+    fill: #95E1D3;
+}
+
+
 .works__subtitle{
     color: #333;
 font-family: "Montserrat" sans-serif;
