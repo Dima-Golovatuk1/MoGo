@@ -96,7 +96,7 @@ margin-bottom: 20px;
 
 .works__item{
     display: flex;
-    flex-basis: calc((100% - 3 * 60) / 3);
+    flex-basis: calc((100% - 3 * 60px) / 3);
 }
 
 
