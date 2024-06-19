@@ -1,0 +1,203 @@
+*,
+*::after *::before {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  padding-top: 32px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav__list {
+  display: flex;
+  gap: 55px;
+}
+.header__logo {
+  color: #95E1D3;
+  font-size: 30px;
+  font-weight: 700;
+}
+.header__nav-item {
+  color: #95E1D3;
+  font-size: 14px;
+  font-weight: 400;
+}
+.header__nav-link:hover {
+  color: #F38181;
+}
+
+.services {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.services .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__text {
+  color: #333;
+  font-family: "Kaushan Script" sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.services__title {
+  color: #333;
+  font-family: "Montserrat" sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+
+.work {
+  margin-bottom: 100px;
+}
+
+.works__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.works__item {
+  display: flex;
+  flex-basis: calc((100% - 180px) / 3);
+}
+
+.works__item svg {
+  margin-right: 20px;
+}
+
+.works__icons {
+  width: 37px;
+  height: 37px;
+  fill: #95E1D3;
+}
+
+.works__subtitle {
+  color: #333;
+  font-family: "$family" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+.works__text {
+  color: #B6B6B6;
+  font-family: "$family" sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 146.667%;
+}
+
+.team__text {
+  color: #B6B6B6;
+  font-family: "$family" sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.team__title {
+  color: #B6B6B6;
+  font-family: "$family" sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+}
+
+.team__suptext {
+  color: #B6B6B6;
+  font-family: "$family" sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.team-members__list {
+  display: flex;
+  gap: 30px;
+}
+
+.team-members__name {
+  color: #333;
+  font-family: "$family" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  font-variant: all-small-caps;
+}
+
+.team-members__position {
+  color: #B6B6B6;
+  font-family: "$family" sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+}
+
+.footer__text {
+  color: #333;
+  text-align: center;
+  font-family: "Montserrat" sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=main.css.map */

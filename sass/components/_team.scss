@@ -1,0 +1,35 @@
+.team__text {
+    @include text (#B6B6B6, Kaushan Script, 24px, 400);
+}
+
+
+.team__title {
+    @include text (#B6B6B6, Montserrat, 30px, 700);
+font-variant: all-small-caps;
+}
+
+
+.team__suptext {
+    @include text (#B6B6B6, Roboto, 15px, 400);
+    text-align: center;
+}
+
+
+.team-members__list{
+    display: flex;
+    gap: 30px;
+}
+
+
+.team-members__name{
+    @include text (#333, Montserrat, 14px, 400);
+    text-align: center;
+    font-variant: all-small-caps;
+}
+
+
+.team-members__position{
+    @include text (#B6B6B6, Roboto, 15px, 300);
+    text-align: center;
+font-style: italic;
+}
